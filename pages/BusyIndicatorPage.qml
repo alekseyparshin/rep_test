@@ -66,6 +66,14 @@ ScrollablePage {
                   + " or when the UI is blocked waiting for a resource to become available."
         }
 
+        Label {
+            width: parent.width
+            wrapMode: Label.Wrap
+            horizontalAlignment: Qt.AlignHCenter
+            text: "BusyIndicator2 is used to indicate activity while content is being loaded,"
+                  + " or when the UI is blocked waiting for a resource to become available."
+        }
+
         BusyIndicator {
             anchors.horizontalCenter: parent.horizontalCenter
         }
