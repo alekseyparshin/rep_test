@@ -56,6 +56,7 @@
 
 int main(int argc, char *argv[])
 {
+//QML PROGECT
     QGuiApplication::setApplicationName("Gallery");
     QGuiApplication::setOrganizationName("QtProject");
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
